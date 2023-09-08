@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    /* vertelt welke font gebruikt wordt in dit document. In dit geval schreefloze letters */
     background-color: #eeeeee;
 }
 
@@ -11,19 +10,15 @@ body{
     top: 50%;
     left: 50%;
     height: 400px;
-    /* de hoogte van het kaartje */
     width: 300px;
-    /* de breedte van het kaartje */
     transform: translate(-50%, -50%);
     transform-style: preserve-3d;
-    /* transform-style bepaalt dat de elementen een 3d effect hebben. */
     perspective: 600px;
     transition: .5s;
 }
 
 :hover .card-front{
     transform: rotateX(-180deg);
-    /* dit vertelt hoeveel graden 'card-front' moet draaien */
 }
 
 :hover .card-back{
@@ -36,18 +31,15 @@ body{
     background-image: url(foto.jpeg);
     background-position: 50% 50%;
     background-size: cover;
-    /* zorgt ervoor dat de achtergrond van het gehele kaartje is bedekt */
     position: absolute;
     top: 0;
     left: 0;
     background-color: #000000;
     backface-visibility: hidden;
-    /* dit zorgt ervoor dat de andere kant (in dit geval card-back) niet te zien is */
     transform: rotateX(0deg);
     transition: .5s;
     border-radius: 2em;
-    /* dit geeft de randen een ronde hoek */
-
+}
 
 .card-back {
     height: 100%;
@@ -55,7 +47,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #353839;
+    background-color: #000000;
     backface-visibility: hidden;
     transform: rotateX(180deg);
     transition: .5s;
@@ -66,17 +58,15 @@ body{
 
 h1 {
     margin: 1.5em auto 0 auto;
-    font-size: 1.6em;
-    /* tekst grootte */
+    font-size: 1.7em;
     letter-spacing: 3px;
-    /* geeft 3px ruimte tussen de letters */
     color: rgba(255,105,180);
 }
 
 h2{
-    margin:  1.5em;
+    margin: 1.5em;
     color:rgb(255,188,217);
-    font-size: 1em;
+    font-size: 1.1em;
 }
 
 span{
