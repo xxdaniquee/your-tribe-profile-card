@@ -55,7 +55,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #000000;
+    background-color: #353839;
     backface-visibility: hidden;
     transform: rotateX(180deg);
     transition: .5s;
@@ -76,7 +76,6 @@ h1 {
 h2{
     margin:  1.5em;
     color:rgb(255,188,217);
-    /* geeft de genoemde rgb kleur aan de h2 tekst */
     font-size: 1em;
 }
 
