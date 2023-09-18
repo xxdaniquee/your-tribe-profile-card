@@ -25,10 +25,14 @@ body{
     transform: rotateX(0deg);
 }
 
+img{
+    height: 25em;
+    border-radius: 2em;
+}
+
 .card-front{
     height: 100%;
     width: 100%;
-    background-image: url(foto.jpeg);
     background-position: 50% 50%;
     background-size: cover;
     position: absolute;
